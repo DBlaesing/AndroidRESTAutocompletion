@@ -1,0 +1,23 @@
+.*/
+._*
+
+#generated files
+out/
+gen/
+bin/
+
+#Idea files
+*.iml
+.idea/
+
+# Built application files
+*.apk
+*.ap_
+
+#files for the dex vm
+*.dex
+
+
+local.properties
+
+

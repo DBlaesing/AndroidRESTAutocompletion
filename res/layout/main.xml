@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Select Evilness:"
+        />
+
+    <AutoCompleteTextView
+         android:id="@+id/simple_rest_autocompletion"
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:completionThreshold="3"
+         android:inputType="textImeMultiLine"
+         />
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Evilness to purge next: "
+            />
+
+        <TextView
+            android:id="@+id/last_clicked"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="none, wait what ?"
+            />
+    </LinearLayout>
+</LinearLayout>
+
